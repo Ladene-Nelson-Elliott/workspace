@@ -1,0 +1,11 @@
+for iteration in range(3):
+    x=random.randint(0, 10)
+    y=random.randint(0, 10)
+    
+    correct_answer=x+y
+    question_string=str(x)+"+"+str(y)+"="
+    user_answer=input(question_string)
+    
+if int(user_answer)!=int(correct_answer):
+        print("WRONG")
+        else print("CORRECT")
